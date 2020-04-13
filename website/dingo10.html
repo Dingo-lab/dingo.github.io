@@ -1,0 +1,321 @@
+<html>
+<title>Dingo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>DINGO</b></h1>
+    <h6>Welcome to the blog of <span class="w3-tag">Dingo's world</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="download1.jpg" alt="" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">Dingo Website</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b></b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">WELCOME</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>MOUNTAIN BICYCLE!</h3>
+          <h5>Title description, <span class="w3-opacity">May 2, 2016</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="mtb.jfif" alt="mtb" style="width:100%" class="w3-padding-16">
+          <p><strong>MOUNTAIN BICYCLE</strong>A mountain bike or mountain bicycle is a bicycle designed for off-road cycling. Mountain bikes share similarities with other bicycles, but incorporate features designed to enhance durability and performance in rough terrain. A mountain bike usually has wide knobby tires that offer more substantial grip and traction on a variety of surfaces, including gravel, dirt, rock and sand. Tire pressure on mountain bikes is less than on road bikes, due to their greater volume and the better traction offered by a softer tire. The rims and spokes on mountain bike wheels are stronger and more durable, again to handle the rougher riding that true mountain biking entails.</p>
+          <p>Most entry-level mountain bike frames are steel (also called "cro-moly"), due to the strength and durability the material offers and the (relatively) low price of steel. Disadvantages of steel are its weight and that it can be prone to rusting.
+
+
+As the materials get more advanced, the price increases. Next on the ladder is aluminum, which is light and rust-proof and relatively strong, but not immune to breakage over time when subjected to repeated stress. I'm not a fan of aluminum in mountain bike frames, simply due to the rough nature of riding, which constantly subjects a mountain bike frame to significant stress, particularly when a heavier rider is involved.
+
+Carbon-fiber frames, the next higher level of material, are similar to aluminum in being light, rust-proof and very strong, but also prone to breakage, but when they go it happens suddenly, and usually at the worst possible time.
+
+Top-of-the-line mountain bike frames are made from titanium, which is super light and incredibly strong. In contrast to aluminum and carbon fiber, both of which can eventually fail over time, a titanium frame on a mountain bike will be a great choice for large riders because of its ability to handle larger loads without becoming fatigued. There's always a trade-off, though, and the downside is that titanium is very expensive. Because of its cost, these bikes with titanium frames typically fall beyond the range of all but the most serious or competitive cyclists.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="geo.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>George <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+                <p>Great blog post! Following</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>SPACE</h3>
+          <h5>Title description, <span class="w3-opacity">April 23, 2016</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="space.png" alt="Men in Hats" style="width:100%" class="w3-padding-16">
+          <p><strong>SPACE</strong> In fact, to define space, it is: a continuous area or expanse that is free, available, or unoccupied; the dimensions of height, depth, and width within which all things exist and move.</p>
+          <p>Space is a term that can refer to various phenomena in science, mathematics, and communications. In astronomy and cosmology, space is the vast 3-dimensional region that begins where the earth's atmosphere ends. ... It is sometimes called 3-D space because it contains three distance dimensions.
+           Space in simple understanding is an area or volume. Space or spacing may also refer to: In science: Outer space, the area beyond the limit of the atmosphere of Earth. Space (physics), one of the fundamental concepts like time and mass.the consept of space is Space is the boundless three-dimensional extent in which objects and events have relative position and direction. Physical space is often conceived in three linear dimensions, although modern physicists usually consider it, with time, to be part of a boundless four-dimensional continuum known as spacetime.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl_train.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Amber <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
+                <p>Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Angie <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
+                <p>Love Sience!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>EGYPTIAN SCIENCE</h3>
+          <h5>Title description, <span class="w3-opacity">April 7, 2016</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="egypt.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>egiptian science</strong> Egyptian civilization - Sciences. While much of the world was living in primitive conditions, the ancient Egyptians were inventing writing and advancing the sciences of mathematics, medicine and astronomy. They developed ways to measure time and distances , and applied their knowledge to monumental architecture.</p>
+          <p>The Egyptians invented and used many simple machines, such as the ramp and the lever, to aid construction processes. They used rope trusses to stiffen the beam of ships. Egyptian paper, made from papyrus, and pottery were mass-produced and exported throughout the Mediterranean basin.
+Medicine. The Edwin Smith Papyrus is a medical text on surgery from ancient Egypt written around 1600 BC. It shows that the Egyptians invented medical surgery, predating the Hippocratic Oath by a thousand years.
+The pyramids were built to protect the body of the deceased pharaoh. These massive tombs were constructed to withstand the elements of time and were intended to last forever. Most Ancient Egyptians planned for their death and the pharaoh was no exception.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl_mountain.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Jane <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
+                <p>That was a great runway show! Thanks for everything.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/boy.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>John <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
+                <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl_hood.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Anja <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
+                <p>Cant wait for the runway to start!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="greek.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>GREEK MYTHS</h4>
+          <p>In ancient Greek religion and mythology, the twelve Olympians are the major deities of the Greek pantheon, commonly considered to be Zeus, Hera, Poseidon, Demeter, Athena, Apollo, Artemis, Ares, Hephaestus, Aphrodite, Hermes, and either Hestia or Dionysus. Zeus was the Greek god that both deities and man would call upon for help. Zeus would help the other gods, goddesses, and mortals if they needed help, but would also invoke his wrath upon them if he felt they weren't worthy of his help. This made Zeus the strongest Greek god in Greek mythology. When did Greek mythology start? It is difficult to know when Greek mythology started, as it is believed to have stemmed from centuries of oral tradition. It is likely that Greek myths evolved from stories told in the Minoan civilization of Crete, which flourished from about 3000 to 1100 BCE. The Greek Gods can't "Die", but they can be crippled forever, chopped into tiny pieces, or just fade. For example, when Kronos sliced Ouranus (Uranus) to death, Ouranus was never able to have a physical form again. In the 3rd Century BC, people referred to Apollo and Helios and Artemis and Selene as the same gods. </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Popular Posts</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Space</span>
+            <br>
+            <span>space</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Science</span>
+            <br>
+            <span>science</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">technology</span>
+            <br>
+            <span>technology</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">comic</span>
+            <br>
+            <span></span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+      <!-- Advertising -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Dingo</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
+            <span class="w3-display-middle">WElcome to my Website</span>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Science</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Hats</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Norway</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sweaters</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Deals</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Accessories</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Jeans</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Trends</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Inspiration</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="space.png" alt="Jeans" style="width:100%"></p>
+            <p><img src="egypt.jpg" alt="Jeans" style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="greek.jpg" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="mtb.jfif" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      
+      
+      
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by DINGO</p>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
+
+
+
+
